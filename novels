@@ -1,0 +1,115 @@
+villain.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Girl Who Became a Villain</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">MY NOVELS</div>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#novels">Novels</a>
+        <a href="../index.html#characters">Characters</a>
+        <a href="../index.html#news">News</a>
+        <a href="../index.html#about">About</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="novel-page">
+
+    <img
+        class="novel-page-cover"
+        src="../images/villain.jpg"
+        alt="The Girl Who Became a Villain"
+    >
+
+    <div class="novel-page-info">
+
+        <h1>The Girl Who Became a Villain</h1>
+
+        <p class="genres">
+            Fantasy • Supernatural • Action • Mystery
+        </p>
+
+        <p>
+            Miyu Kurohana enters a world she already knows.
+            She knows that the heroine is destined to die.
+        </p>
+
+        <p>
+            To protect her, Miyu deliberately takes the role
+            of the mysterious villain.
+        </p>
+
+        <a href="#chapters" class="button">
+            Start Reading
+        </a>
+
+    </div>
+
+</section>
+
+
+<section id="chapters" class="chapter-section">
+
+    <h2>Volume 1</h2>
+
+    <div class="chapter-list">
+
+        <a href="#" class="chapter">
+            <span>Chapter 1</span>
+            <span>Read →</span>
+        </a>
+
+        <a href="#" class="chapter">
+            <span>Chapter 2</span>
+            <span>Read →</span>
+        </a>
+
+        <a href="#" class="chapter">
+            <span>Chapter 3</span>
+            <span>Read →</span>
+        </a>
+
+        <a href="#" class="chapter">
+            <span>Chapter 4</span>
+            <span>Read →</span>
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <h3>MY NOVELS</h3>
+
+    <p>Original stories. New worlds.</p>
+
+    <p class="copyright">
+        © 2026 My Novels. All rights reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>

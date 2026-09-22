@@ -419,3 +419,106 @@ footer p {
     }
 
 }
+/* NOVEL PAGE */
+
+.novel-page {
+    max-width: 1100px;
+    margin: auto;
+
+    padding: 100px 7%;
+
+    display: flex;
+    gap: 50px;
+
+    align-items: center;
+}
+
+.novel-page-cover {
+    width: 300px;
+    height: 450px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.novel-page-info {
+    flex: 1;
+}
+
+.novel-page-info h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.novel-page-info p {
+    color: #b9b9c8;
+    margin-bottom: 20px;
+}
+
+.chapter-section {
+    max-width: 900px;
+    margin: auto;
+
+    padding: 50px 20px 100px;
+}
+
+.chapter-section h2 {
+    margin-bottom: 30px;
+}
+
+.chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.chapter {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 25px;
+
+    background: #11111d;
+
+    border: 1px solid #28283c;
+
+    border-radius: 10px;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.chapter:hover {
+    border-color: #7c3aed;
+    transform: translateX(5px);
+}
+
+.chapter span:last-child {
+    color: #a78bfa;
+}
+
+
+@media (max-width: 700px) {
+
+    .novel-page {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding-top: 60px;
+    }
+
+    .novel-page-cover {
+        width: 230px;
+        height: 350px;
+    }
+
+    .novel-page-info h1 {
+        font-size: 35px;
+    }
